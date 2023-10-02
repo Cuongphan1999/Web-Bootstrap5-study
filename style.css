@@ -135,3 +135,6 @@ body {
 /* .service-item:hover * {
     color: var(--light) !important;
 } */
+.footer {
+    background-color: rgb(142, 168, 218);
+}
