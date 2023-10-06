@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.3/css/bootstrap.min.css" />
+    <script src="./assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./style-register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" />
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header class="container bg-white p-0">
+        <nav class="navbar navbar-expand-lg bg-light p-0">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand px-lg-5 text-primary text-uppercase fw-bolder" href="#">Navbar</a> -->
+              <a href="#" class="navbar-brand">
+                <h1 class="text-danger m-0 fw-bolder"><i class="fa fa-map-marker-alt me-4"></i>Tourist</h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse fw-bolder py-2" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 px-lg-5 ms-auto fs-5 pt-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/About/index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Service/index.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Package/index.html">Package</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Page
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Travel-guides/index.html">Travel Guides</a></li>
+                      <li><a class="dropdown-item" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Page-Destination/index.html">Destination</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Contact/index.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="d-flex">
+                        <a href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Register/index.html" class="btn btn-danger text-uppercase px-2 rounded-6">Register</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container-xxl p-0">
+            <div class="container px-5 bg-white bg-image">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="./assets/img/travel5.avif" alt="" class="img-fluid mt-3 d-none d-md-block">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-container">
+                                    <h1 class="">Create an Account</h1>
+                                    <form class="form-register mb-4">
+                                        <div class="form-group fw-bold">
+                                            <label>User Name</label>
+                                            <input type="text" class="form-control" placeholder="User Name">
+                                        </div>
+                                        <div class="form-group fw-bold">
+                                            <label>Email ID</label>
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                        <div class="form-group fw-bold">
+                                            <label>Password</label>
+                                            <input type="password" class="form-control" placeholder="Password">
+                                        </div>
+                                        <div class="form-group fw-bold">
+                                            <label>Confirm Password</label>
+                                            <input type="password" class="form-control" placeholder="Confirm Password">
+                                        </div>
+                                        <h4 class="sub-title fs-3">Personal Information</h4>
+                                        <div class="form-group fw-bold">
+                                            <label>Phone Number</label>
+                                            <input type="text" class="form-control" placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-group fw-bold">
+                                            <label>City</label>
+                                            <select class="form-control">
+                                                <option value="ThaiLand">ThaiLand</option>
+                                                <option value="Indonesia">Indonesia</option>
+                                                <option value="Tokyo">Tokyo</option>
+                                                <option value="China">China</option>
+                                            </select>
+                                        </div>
+                                        <div class="check-terms">
+                                            <input type="checkbox" class="checkbox">
+                                            <span class="check-label fst-italic">I agree to the terms</span>
+                                        </div>
+                                        <span class="signin-link">Already have an account? Click here to <a href="https://id.zalo.me/account?continue=https://chat.zalo.me">Login</a></span>
+                                        <div class="d-flex justify-content-start mt-3">
+                                            <a href="https://id.zalo.me/account?continue=https://chat.zalo.me" class="btn btn-sm btn-danger px-3">Create Account</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+            </div>
+        </div>
+    </main>
+    <footer">
+        <!-- FOOTER -->
+        <div class="container p-0">
+            <div class="text-white text-center text-lg-start bg-dark">
+                <div class="container p-4">
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                            <h5 class="text-danger text-uppercase mb-4">About
+                                company</h5>
+                            <p>
+                                Our company is familiar with adventure
+                                off-road trips to relaxing travel. So
+                                here we
+                                are, to bring you
+                                a modern, comfortable and connected
+                                travel experience and make your tour
+                                unforgettable.
+                            </p>
+                            <p>
+                                Whether you want to travel to the desert
+                                or the mountains, we provide you with
+                                the
+                                best services.
+                            </p>
+                            <div class="mt-4">
+                                <a type="button" href="https://vi-vn.facebook.com/"
+                                    class="btn btn-floating btn-danger btn-lg"><i
+                                        class="fab fa-facebook-square"></i></a>
+                                <a type="button" href="https://www.skype.com/en/"
+                                    class="btn btn-floating btn-danger btn-lg"><i class="fab fa-skype"></i></a>
+                                <a type="button" href="https://twitter.com/?lang=vi"
+                                    class="btn btn-floating btn-danger btn-lg"><i class="fab fa-twitter-square"></i></a>
+                                <a type="button" href="https://www.google.com.vn/?hl=vi"
+                                    class="btn btn-floating btn-danger btn-lg"><i
+                                        class="fab fa-google-plus-square"></i></a>
+                            </div>
+                        </div>
+                        <!--search-->
+                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-danger text-uppercase mb-4 pb-1">Search
+                                something</h5>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search Tours"
+                                    aria-label="Search Tours" aria-describedby="button-search">
+                                <button class="btn btn-outline-danger  text-white" type="button">Search</button>
+                            </div>
+                            <p class="mb-2 d-flex justify-content-start"><i class="fas fa-house-user me-3"></i>Street
+                                16, Ward 7,
+                                District 10</p>
+                            <p class="mb-2 d-flex justify-content-start"><i class="fas fa-phone-volume me-3"></i>+
+                                84 555 868 86</p>
+                            <p class="mb-2 d-flex justify-content-start"><i
+                                    class="fas fa-envelope-open-text me-3"></i>tourist@gmail.com.vn</p>
+                        </div>
+                        <!--instagram-->
+                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                            <h4 class="text-danger text-uppercase mb-3">INSTAGRAM</h4>
+                            <div class="row g-2 pt-2">
+                                <div class="col-4">
+                                    <img class="img-thumbnail bg-light p-1" src="assets/img/thailanbienc.jpg"
+                                        alt="picture">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-thumbnail bg-light p-1" src="assets/img/paris-booking2.jpg"
+                                        alt="picture">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-thumbnail bg-light p-1" src="assets/img/seoul.jpg" alt="picture">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-thumbnail bg-light p-1" src="assets/img/seoul1.jpg" alt="picture">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-thumbnail bg-light p-1" src="assets/img/seoul-new.jpg"
+                                        alt="picture">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-thumbnail bg-light p-1" src="assets/img/thailanbien.jpg"
+                                        alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © Phan Xuan Cuong
+                    <a class="text-white" href="#">Tourist@gmail.com.vn</a>
+                </div>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>
