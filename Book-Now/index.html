@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.3/css/bootstrap.min.css" />
+    <script src="./assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./style-book-now.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css" />
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header class="container bg-white p-0">
+        <!-- navigate bar -->
+    <nav class="navbar navbar-expand-lg bg-light p-0">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand px-lg-5 text-primary text-uppercase fw-bolder" href="#">Navbar</a> -->
+          <a href="#" class="navbar-brand">
+            <h1 class="text-danger m-0 fw-bolder"><i class="fa fa-map-marker-alt me-4"></i>Tourist</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fw-bolder py-2" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 px-lg-5 ms-auto fs-5 pt-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Service/index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Service/index.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Package/index.html">Package</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Travel-guides/index.html">Travel Guides</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Page-Destination/index.html">Destination</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Contact/index.html">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+                <div class="d-flex">
+                    <a href="http://127.0.0.1:57507/HTML-CSS/Web-Bootstrap5-study/Register/index.html" class="btn btn-danger text-uppercase px-2 rounded-6">Register</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="container-xxl p-0">
+            <div class="container bg-white bg-image">
+                <h2 class="text-center fs-1">One<span class="text-danger">PAY</span></h2>
+                <form>
+                    <div class="row">
+                        <!-- address -->
+                        <div class="col-md-6">
+                            <h3 class="text-danger fs-3">Billing Address</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Cuong Phan">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="touris@gmail.com">
+                            <label for="adr"><i class="fas fa-map-marker"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="16, Ward 7, District 10">
+                            <label for="city"><i class="fas fa-building"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="HCM">
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="state" placeholder="AA">
+                                </div>
+                                <div class="col-6">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="9999">
+                                </div>
+                            </div>
+                            <h3 class="text-danger fs-3">Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                                <img src="./assets/img/pay-money.PNG" alt="Payment">
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Phan Cuong">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="May">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="expyear">Exp Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2023">
+                                </div>
+                                <div class="col-6">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="CR-345">
+                                </div>
+                            </div>
+                            <label class="m-2">
+                                <input type="checkbox" checked="checked" name="sameadress"> Shipping address same as billing
+                            </label>
+                            <!-- <input type="submit" value="Continue to checkout" class="btn btn-danger d-block mb-3"> -->
+                            <div class="d-flex justify-content-start mb-4 ">
+                                <a href="https://id.zalo.me/account?continue=https://chat.zalo.me" class="btn btn-danger text-uppercase px-5 rounded-6">Register</a>
+                              </div>
+                        </div>
+                        <!-- payment -->
+                        <div class="col-md-6">
+                            <div class="overflow-hidden">
+                                <img src="assets/img/paris-booking2.jpg" alt="parisbook">
+                            </div>
+                            <div class="d-flex border-bottom">
+                                <p class="flex-fill text-center border-end py-2 m-0"><i
+                                        class="text-danger fas fa-map-marked-alt me-2"></i>Paris</p>
+                                <p class="flex-fill text-center border-end py-2 m-0"><i
+                                        class="text-danger fas fa-calendar-alt me-2"></i>3 days</p>
+                                <p class="flex-fill text-center py-2 m-0"><i class="text-danger fas fa-user me-2"></i>2
+                                    Person</p>
+                            </div>
+                            <div class="text-center p-2">
+                                <h3><i class="fas fa-dollar-sign fa-sm"></i>599.00</h3>
+                                <div>
+                                    <small><i class="fas fa-star text-warning"></i></small>
+                                    <small><i class="fas fa-star text-warning"></i></small>
+                                    <small><i class="fas fa-star text-warning"></i></small>
+                                    <small><i class="fas fa-star text-warning"></i></small>
+                                    <small><i class="fas fa-star text-warning"></i></small>
+                                </div>
+                                <p>Travel To Paris And Explore Beautiful Scenery [TORONTO - KINGSTON]</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        
+        </form>
+
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+    </main>
+    <footer">
+        <!-- FOOTER -->
+        <!-- FOOTER -->
+      <div class="container p-0">
+        <div class="text-white text-center text-lg-start bg-dark">
+          <div class="container p-4">
+            <div class="row mt-4">
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-danger text-uppercase mb-4 text-left">About company</h5>
+                <p class="text-start">
+                  Our company is familiar with adventure off-road trips to relaxing travel. So here we are, to bring you
+                  a modern, comfortable and connected travel experience and make your tour unforgettable.
+                </p>
+                <p class="text-start">
+                  Whether you want to travel to the desert or the mountains, we provide you with the best services.
+                </p>
+                <div class="mt-4">
+                  <a type="button" href="#" class="btn btn-floating btn-danger btn-lg"><i
+                      class="fab fa-facebook-square"></i></a>
+                  <a type="button" href="#" class="btn btn-floating btn-danger btn-lg"><i
+                      class="fab fa-skype"></i></a>
+                  <a type="button" href="#" class="btn btn-floating btn-danger btn-lg"><i
+                      class="fab fa-twitter-square"></i></a>
+                  <a type="button" href="#" class="btn btn-floating btn-danger btn-lg"><i
+                      class="fab fa-google-plus-square"></i></a>
+                </div>
+              </div>
+              <!--search-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-danger text-uppercase mb-4 pb-1">Search something</h5>
+                <div class="input-group mb-3">
+                  <input class="form-control" placeholder="Search Tours" aria-label="Search Tours"
+                    aria-describedby="button-search">
+                    <a href="https://id.zalo.me/account?continue=https://chat.zalo.me">
+                      <button class="btn btn-outline-danger text-white" type="button">Search</button>
+                    </a>
+                </div>
+                <p class="mb-2 d-flex justify-content-start"><i class="fas fa-house-user me-3"></i>Street 16, Ward 7,
+                  District 10</p>
+                <p class="mb-2 d-flex justify-content-start"><i class="fas fa-phone-volume me-3"></i>+ 84 555 868 86</p>
+                <p class="mb-2 d-flex justify-content-start"><i
+                    class="fas fa-envelope-open-text me-3"></i>tourist@gmail.com.vn</p>
+              </div>
+              <!--instagram-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h4 class="text-danger text-uppercase mb-3">INSTAGRAM</h4>
+                <div class="row g-2 pt-2">
+                  <div class="col-4">
+                    <img class="img-thumbnail bg-light p-1" src="assets/img/thailanbienc.jpg" alt="picture">
+                  </div>
+                  <div class="col-4">
+                    <img class="img-thumbnail bg-light p-1" src="assets/img/paris-booking2.jpg" alt="picture">
+                  </div>
+                  <div class="col-4">
+                    <img class="img-thumbnail bg-light p-1" src="assets/img/seoul.jpg" alt="picture">
+                  </div>
+                  <div class="col-4">
+                    <img class="img-thumbnail bg-light p-1" src="assets/img/seoul1.jpg" alt="picture">
+                  </div>
+                  <div class="col-4">
+                    <img class="img-thumbnail bg-light p-1" src="assets/img/seoul-new.jpg" alt="picture">
+                  </div>
+                  <div class="col-4">
+                    <img class="img-thumbnail bg-light p-1" src="assets/img/thailanbien.jpg" alt="picture">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Copyright -->
+          <div class="text-center p-3 bg-dark">
+            © Phan Xuan Cuong
+            <a class="text-white" href="#">Tourist@gmail.com.vn</a>
+          </div>
+        </div>
+      </div>
+        </footer>
+</body>
+
+</html>
