@@ -1,0 +1,60 @@
+:root {
+    --dark: #0f172b;
+    --primary: #198754;
+    --secondary: #FE8800;
+    --light: #F5F5F5;
+    --dark: #14141F;
+    --danger: #dc3545
+}
+body {
+    background-color: #f1f8ff;
+}
+.btn {
+    font-weight: 500px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+/* header */
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 43, 0.7);
+    z-index: 1;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+/*** Navbar ***/
+.navbar-dark .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
